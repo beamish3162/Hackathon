@@ -5,6 +5,7 @@
 }
 
 .navigation-link {
+    width: auto;
     color: #305070;
     background: #88b0d8;
 }
@@ -71,5 +72,15 @@ a {
     background: url("https://images.unsplash.com/photo-1532393950032-b666e39c29b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: -400px;
+    background-position-y: 30%;
+}
+
+/* Hero content */ 
+.jumbotron p, .jumbotron h1 {
+    color: white;
+    text-shadow: black 1px 1px 3px;
+} 
+
+.jumbotron hr {
+    border-color: white;
 }
