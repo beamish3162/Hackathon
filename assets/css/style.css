@@ -3,12 +3,30 @@
     margin: 0;
     padding: 0;
 }
+
+.navigation-link {
+    color: #305070;
+    background: #88b0d8;
+}
+
+footer {
+    max-height: 30px;
+}
+
+.footer-rights {
+    align-self: flex-end;
+}
+
+.footer-icons {
+
+}
+
 /* Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 h1, h2, h3, h4, a, p {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka One', sans-serif;
 }
 /* ---------- Colors ---------------------- */
 body {
@@ -37,4 +55,21 @@ a {
 .btn-blue:hover {
     background-color: #88b0d8;
     color: #305070;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus, .btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+    background-color: #304040;
+    color: #88b0d8;
+}
+
+/* ---------------- Index page -----------------------*/ 
+
+/*Hero image / Jumbotron */
+#hero-image {
+    height: 60vh;
+    background: url("https://images.unsplash.com/photo-1532393950032-b666e39c29b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -400px;
 }
