@@ -1,3 +1,22 @@
-.show .navigation-link {
-    background-color: rgba(255, 255, 255, 0.5);
+.show .navigation-link,
+.collapse .navigation-link,
+.collapsing .navigation-link {
+    background-color: rgba(255, 255, 255, 1);
+}
+.show ul #top-link,
+.collapse #top-link,
+.collapsing #top-link {
+    border-radius: 10px 10px 0 0;
+}
+
+.show ul #bottom-link,
+.collapse #bottom-link,
+.collapsing #bottom-link {
+    border-radius: 0 0 10px 10px;
+}
+
+@media screen and (min-width: 1000px) {
+        .navbar-nav {
+        width: 15vw;
+    }
 }

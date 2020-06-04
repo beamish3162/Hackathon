@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+html {
+    position: relative;
+    width: 100%;
+}
+
+#wrapper {
+    overflow-x: hidden;
+}
+
 .navigation-link {
     width: auto;
     color: #305070;

@@ -3,27 +3,36 @@
 /* carousel-space */
 
 .involved-carousel-content {
-    background: yellow;
-    min-height: 60vh;
     max-width: 90%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #305070;
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+}
+
+.carousel-indicators li {
+    width: 20%;
+    height: 6px;
+    background-color: #88b0d8;
+}
+
+.carousel-indicators .active {
+    background-color: #305070;
 }
 
 /* carousel-image */
 
 .content-image {
-
+    min-height: 400px;
+    border-radius: 50%;
 }
 
 /* carousel-text */
 
-.content-header {
-
-}
-
-.content-text {
-
-}
-
 .content-icons {
-
+    font-size: 150%;
 }

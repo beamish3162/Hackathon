@@ -1,23 +1,4 @@
-/*Hero image */
-#contact-image {
-    position: relative;
-    height: 60vh;
-    background: url("https://images.unsplash.com/photo-1532393950032-b666e39c29b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-@media screen and (max-width: 500px) {
-    #contact-image {
-        height: 75vh;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    #contact-image {
-        background-position-y: 30%;
-    }
-}
 
 
 
