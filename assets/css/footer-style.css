@@ -1,0 +1,25 @@
+/* ---------------- Footer -----------------------*/ 
+
+footer {
+    max-height: 7vh;
+    background: #305070;
+    color: white;
+}
+
+/* footer-rights */
+
+.footer-rights {
+    padding-left: 10px;
+}
+
+/* footer-icons */
+
+.footer-icons {
+    padding-right: 10px;
+}
+
+.footer-icons a {
+    display: inline-block;
+    color: white;
+    font-size: 3rem;
+}

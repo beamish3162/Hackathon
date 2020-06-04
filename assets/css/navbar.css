@@ -1,3 +1,12 @@
+.navbar {
+    padding-right: 0;
+    padding-left: 2vw;
+}
+
+.navbar-togger {
+    margin-right: 2vw;
+}
+
 .show .navigation-link,
 .collapse .navigation-link,
 .collapsing .navigation-link {

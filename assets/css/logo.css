@@ -8,6 +8,18 @@
     right: -250px;
 }
 
+.logo-box-involved {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
 .logo {
     max-width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        max-width: 150px;
+    }
 }

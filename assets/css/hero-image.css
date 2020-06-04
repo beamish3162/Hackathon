@@ -53,6 +53,10 @@
         font-size: 1.7rem;
     }
 
+    .jumbotron p {
+        font-size: 0.8rem;
+    }
+
     #jumbotron-bg{
         width: 96vw;
         position: relative;

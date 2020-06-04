@@ -10,6 +10,8 @@ html {
 }
 
 #wrapper {
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
 }
 
@@ -17,18 +19,6 @@ html {
     width: auto;
     color: #305070;
     background: #88b0d8;
-}
-
-footer {
-    max-height: 30px;
-}
-
-.footer-rights {
-    align-self: flex-end;
-}
-
-.footer-icons {
-
 }
 
 /* Font */

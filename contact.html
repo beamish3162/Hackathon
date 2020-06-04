@@ -7,36 +7,63 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/stylesheet.css">
 <link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/contact-style.css">
+<link rel="stylesheet" href="./assets/css/navbar.css">
+<link rel="stylesheet" href="./assets/css/logo.css">
+<link rel="stylesheet" href="./assets/css/footer-style.css">
 <title>Title</title>
 </head>
 <body>
-    <section class="mb-5">
-        <div class="m-4 d-flex justify-content-center">
-            <h1>Get Involved</h1>
+ <!--  NavBar  -->
+   <nav class="navbar fixed-top text-right justify-content-end">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+                <i class="fas fa-grip-lines"></i>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto mt-2 mr-2">
+                <li class="pr-2 nav-item active navigation-link">
+                    <a class="nav-link" href="/index.html">Alfie's Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="pr-2 nav-item navigation-link">
+                    <a class="nav-link" href="/involved.html">Get Involved</a>
+                </li>
+                <li class="pr-2 nav-item navigation-link">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+            </ul>
         </div>
-        <div class="contact-margins">
-            <form>
-                <fieldset>
-                    <legend></legend>
-                    <label>Name</label><input type="text" name="name" class="form-control" id="fullname" placeholder="e.g Alfie the Dolphin" required/>
-                    <label>Email</label><input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="e.g Alfie4conservation@gmail.com" required/>
-                </fieldset>
-                <fieldset>
-                    <textarea rows="20" class="form-control" placeholder="I want to save the ocean and eat more fish!"></textarea>
-                </fieldset>
-                <button type="submit" class="btn btn-info">Send your message</button>
-            </form>
+    </nav>
+    <!--main contact form-->
+    <section class="mb-4">
+        <div>
+                <div class="m-4 d-flex justify-content-center">
+                    <h1>Contact Us</h1>
+                </div>
+            <div class="contact-font contact-margins">
+                <form>
+                    <fieldset>
+                        <legend></legend>
+                        <label>Name</label><input type="text" name="name" class="form-control contact-spacing" id="fullname" placeholder="e.g Alfie the Dolphin" required/>
+                        <label>Email</label><input type="text" name="emailaddress" class="form-control contact-spacing" id="emailaddress" placeholder="e.g Alfie4conservation@gmail.com" required/>
+                    </fieldset>
+                    <fieldset>
+                        <textarea rows="15" class="form-control" placeholder="I want to save the ocean and eat more fish!"></textarea>
+                    </fieldset>
+                    <button type="submit" class="btn button-style">Send your message</button>
+                </form>
+            </div>
         </div>
     </section>
-    <footer class="fixed-bottom">
-        <div class="d-flex justify-content-start footer-rights">
-            <h6>Example rights text</h6>
-        </div>
-        <div class="d-flex justify-content-end footer-icons">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-instagram-square"></i>
-            <i class="fas fa-rss-square"></i>
+    <!--footer-->
+    <footer class="fixed-bottom text-center">
+        <div class="col-6 footer-icons d-inline-block">
+            <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+            <a href="http://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+            <a href="http://google.com"><i class="fas fa-rss-square"></i></a>
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
