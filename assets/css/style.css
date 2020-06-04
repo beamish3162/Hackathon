@@ -71,11 +71,23 @@ a {
     height: 60vh;
     background: url("https://images.unsplash.com/photo-1532393950032-b666e39c29b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 30%;
+    background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+    #hero-image {
+        height: 75vh;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #hero-image {
+        background-position-y: 30%;
+    }
 }
 
 /* Hero content */ 
+
 .jumbotron p, .jumbotron h1 {
     color: white;
     text-shadow: black 1px 1px 3px;
@@ -83,4 +95,33 @@ a {
 
 .jumbotron hr {
     border-color: white;
+}
+
+.jumbotron p {
+    font-size: 1rem;
+}
+
+#jumbotron-bg {
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .jumbotron h1 {
+        font-size: 1.7rem;
+    }
+
+    #jumbotron-bg{
+        width: 96vw;
+    }
+}
+
+/*-----------------contact page-------------*/
+.contact-margins {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
 }
