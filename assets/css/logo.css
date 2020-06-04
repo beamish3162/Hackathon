@@ -1,0 +1,13 @@
+.marks-logo-in-lead-class {
+    position: relative;
+}
+
+.logo-box {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.logo {
+    max-width: 300px;
+}
