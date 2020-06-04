@@ -22,4 +22,6 @@ footer {
     display: inline-block;
     color: white;
     font-size: 3rem;
+    margin-right: 10px;
+    margin-left: 10px;
 }
